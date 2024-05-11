@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 3 Report</title>
+    <style>
+        /* Border Styles */
+        .section-border {
+            border: 2px solid #333;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .image-border {
+            border: 1px dashed #666;
+            border-radius: 8px;
+            padding: 10px;
+            margin-right: 20px;
+        }
+
+        /* Inline Elements Border */
+        strong {
+            border-bottom: 2px solid #555;
+            padding-bottom: 3px;
+            margin-bottom: 5px;
+        }
+
+        em {
+            border: 1px dotted #777;
+            padding: 3px;
+        }
+
+        /* Background Styles */
+        .background-hex {
+            background-color: #f0f8ff; /* Hex color code */
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .background-color-name {
+            background-color: lavender; /* Color name */
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .background-rgba {
+            background-color: rgba(255, 0, 0, 0.2); /* RGBA function */
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .background-gradient {
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .background-repeating-gradient {
+            background: repeating-linear-gradient(to right, #b3ecff, #b3ecff 30px, #ffcc99 30px, #ffcc99 60px); /* Repeating gradient background */
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .background-image {
+            background-image: url('background-image.jpg'); /* Image background */
+            background-size: cover;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .background-multiple-images {
+            background-image: url('image1.png'), url('image2.png'); /* Multiple image background */
+            background-repeat: no-repeat;
+            background-position: top left, top right;
+            background-size: 50%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<main>
+    <article class="section-border">
+        <h1>Practical 3 Report</h1>
+        
+        <section class="section-border">
+            <h2>Opening Developer Console</h2>
+            <p>To open the developer console in Mozilla Firefox, you can use the keyboard shortcut:</p>
+            <p><strong>Ctrl + Shift + K</strong></p>
+            <p>In Safari, the process is slightly different:</p>
+            <p><strong>Option + ⌘ + C</strong></p>
+        </section>
+
+        <section class="section-border">
+            <h2>Internal Links</h2>
+            <p>Generally, the preferable way of including internal links in HTML pages is using <em>relative links</em>.</p>
+            <p><strong>Absolute links</strong> specify the complete URL of the linked page, including the protocol (http/https), domain, and path. They are useful when linking to external resources or when the structure of the website might change.</p>
+            <p><strong>Relative links</strong> specify the path to the linked page relative to the current page's location. They are advantageous within the same website structure, as they simplify maintenance and allow for easier restructuring of directories.</p>
+        </section>
+
+        <section class="section-border">
+            <h2>Image Formats in Web Development</h2>
+            <p>Common image formats used in web development are <mark>JPG</mark>, <mark>GIF</mark>, <mark>PNG</mark>, <mark>WEBP</mark>, and <mark>SVG</mark>.</p>
+            <p><strong>JPG (Joint Photographic Experts Group)</strong> is suitable for photographs and complex images, offering good compression but losing quality with each save due to its lossy compression.</p>
+            <p><strong>GIF (Graphics Interchange Format)</strong> supports animations and transparency but has a limited color palette and is not suitable for complex images due to its lossless compression.</p>
+            <p><strong>PNG (Portable Network Graphics)</strong> supports transparency and is lossless, making it ideal for images with text or graphics and for images that require transparent backgrounds.</p>
+            <p><strong>WEBP</strong> is a modern image format developed by Google, offering both lossy and lossless compression, smaller file sizes compared to JPG and PNG, and support for animation and transparency.</p>
+            <p><strong>SVG (Scalable Vector Graphics)</strong> is an XML-based vector image format, ideal for logos, icons, and graphics that need to scale without losing quality.</p>
+        </section>
+
+        <section class="section-border">
+            <h2>Screenshot</h2>
+            <p>Below is a screenshot:</p>
+            <img class="image-border" src="/Users/evelinaaromcik/Pictures/Photos Library.photoslibrary/resources/renders/2/272B41DA-413D-4482-8354-228982851323_1_201_a.jpeg" alt="Screenshot">
+        </section>
+
+        <!-- Lorem Ipsum paragraphs with different background styles -->
+        <p class="background-hex">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod leo nec sollicitudin. Nulla facilisi.</p>
+
+        <p class="background-color-name">Sed eu neque vel est accumsan facilisis. Donec bibendum purus id ligula maximus, vitae aliquet arcu posuere.</p>
+
+        <p class="background-rgba">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+        <p class="background-gradient">Nam sodales mi at velit tincidunt, non dapibus quam efficitur.</p>
+
+        <p class="background-repeating-gradient">Nunc convallis lacus a orci tincidunt, ut convallis arcu tincidunt. In in leo eget metus rhoncus dignissim.</p>
+
+        <p class="background-image">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus eleifend vitae sem sed sagittis.</p>
+
+        <p class="background-multiple-images">Mauris ac nisi sed neque volutpat vestibulum non et nisi. Fusce id est mauris. Suspendisse malesuada condimentum felis, vel vehicula felis aliquam in.</p>
+
+    </article>
+</main>
+
+</body>
+</html
